@@ -1,0 +1,23 @@
+﻿@model IEnumerable<MVC_QLSVV.Models.Exam>
+
+
+   @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HocVien.StudentName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LopHoc.SubjectName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mark)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.SubjectID, idsb = item.StudentID }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.SubjectID, idsb = item.StudentID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.SubjectID, idsb = item.StudentID })
+                </td>
+            </tr>
+        }
+  

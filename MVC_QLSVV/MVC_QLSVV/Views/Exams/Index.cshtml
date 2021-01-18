@@ -1,0 +1,60 @@
+﻿@model IEnumerable<MVC_QLSVV.Models.Exam>
+    @using PagedList;
+    @using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<form>
+    Search: @Html.TextBox("TxtTimkiem") @Html.DropDownList("SubjectId", "Chọn môn cần tìm") @Html.DropDownList("khoangdiem", new List<SelectListItem>() { new SelectListItem() { Text = "Đỗ (Mark >= 40)", Value = "1" }, new SelectListItem() { Text = "Trượt (Mark < 40 )", Value = "2" } }, "Chọn Khoảng điểm ")
+    <input type="submit" value="Search"/>
+</form>
+@using (Ajax.BeginForm(new AjaxOptions() { HttpMethod = "Post", UpdateTargetId = "tablebody" }))
+{
+<div>
+    Ajax Search : <input type="text" id="ajaxTimkiem" name="ajaxTimkiem" placeholder="Nhap chuoi tim kiem " onkeypress="$('#btnSubmit').click();" /> @Html.DropDownList("ajaxSubjectID", "chon mon can tim") @Html.DropDownList("ajaxkhoangdiem", new List<SelectListItem>() { new SelectListItem() { Text = "Pass (Mark >= 40 )", Value = "1" }, new SelectListItem() { Text = "Fail (Mark < 40)", Value = "2" } }, "Chon khoang diem")
+    <input type="submit"  value="Search" id="btnSubmit"  />
+</div>
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.HocVien.StudentName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LopHoc.SubjectName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Mark)
+        </th>
+        <th></th>
+    </tr>
+    <tbody id="tablebody">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HocVien.StudentName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LopHoc.SubjectName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mark)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.SubjectID, idsb = item.StudentID }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.SubjectID, idsb = item.StudentID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.SubjectID, idsb = item.StudentID })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page }))

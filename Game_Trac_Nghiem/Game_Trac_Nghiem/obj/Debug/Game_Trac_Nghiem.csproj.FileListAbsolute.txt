@@ -1,0 +1,12 @@
+C:\Users\Admin\source\repos\Game_Trac_Nghiem\Game_Trac_Nghiem\bin\Debug\Kiem_Tra_tracnghiem_DB.mdf
+C:\Users\Admin\source\repos\Game_Trac_Nghiem\Game_Trac_Nghiem\bin\Debug\Kiem_Tra_tracnghiem_DB_log.ldf
+C:\Users\Admin\source\repos\Game_Trac_Nghiem\Game_Trac_Nghiem\bin\Debug\Game_Trac_Nghiem.exe.config
+C:\Users\Admin\source\repos\Game_Trac_Nghiem\Game_Trac_Nghiem\bin\Debug\Game_Trac_Nghiem.exe
+C:\Users\Admin\source\repos\Game_Trac_Nghiem\Game_Trac_Nghiem\bin\Debug\Game_Trac_Nghiem.pdb
+C:\Users\Admin\source\repos\Game_Trac_Nghiem\Game_Trac_Nghiem\obj\Debug\Game_Trac_Nghiem.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Game_Trac_Nghiem\Game_Trac_Nghiem\obj\Debug\Game_Trac_Nghiem.Form1.resources
+C:\Users\Admin\source\repos\Game_Trac_Nghiem\Game_Trac_Nghiem\obj\Debug\Game_Trac_Nghiem.Properties.Resources.resources
+C:\Users\Admin\source\repos\Game_Trac_Nghiem\Game_Trac_Nghiem\obj\Debug\Game_Trac_Nghiem.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Game_Trac_Nghiem\Game_Trac_Nghiem\obj\Debug\Game_Trac_Nghiem.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Game_Trac_Nghiem\Game_Trac_Nghiem\obj\Debug\Game_Trac_Nghiem.exe
+C:\Users\Admin\source\repos\Game_Trac_Nghiem\Game_Trac_Nghiem\obj\Debug\Game_Trac_Nghiem.pdb

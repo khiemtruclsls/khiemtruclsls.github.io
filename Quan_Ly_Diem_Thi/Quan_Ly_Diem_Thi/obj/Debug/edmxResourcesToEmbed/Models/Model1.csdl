@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QldtDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DiemThi">
+    <Key>
+      <PropertyRef Name="IdHocVien" />
+      <PropertyRef Name="IdMonHoc" />
+      <PropertyRef Name="LanThi" />
+    </Key>
+    <Property Name="IdHocVien" Type="Int32" Nullable="false" />
+    <Property Name="IdMonHoc" Type="Int32" Nullable="false" />
+    <Property Name="LanThi" Type="Int32" Nullable="false" />
+    <Property Name="DiemThi1" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="HocVien" Relationship="Self.FK__DiemThi__IdHocVi__2D27B809" FromRole="DiemThi" ToRole="HocVien" />
+    <NavigationProperty Name="MonHoc" Relationship="Self.FK__DiemThi__IdMonHo__2E1BDC42" FromRole="DiemThi" ToRole="MonHoc" />
+  </EntityType>
+  <EntityType Name="HocVien">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HoTen" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Email" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SoDT" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IdLopHoc" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="DiemThis" Relationship="Self.FK__DiemThi__IdHocVi__2D27B809" FromRole="HocVien" ToRole="DiemThi" />
+    <NavigationProperty Name="LopHoc" Relationship="Self.FK__HocVien__IdLopHo__267ABA7A" FromRole="HocVien" ToRole="LopHoc" />
+  </EntityType>
+  <EntityType Name="LopHoc">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LopHoc1" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NamBatDau" Type="Int32" />
+    <NavigationProperty Name="HocViens" Relationship="Self.FK__HocVien__IdLopHo__267ABA7A" FromRole="LopHoc" ToRole="HocVien" />
+  </EntityType>
+  <EntityType Name="MonHoc">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TenMonHoc" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="VietTat" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="DiemThis" Relationship="Self.FK__DiemThi__IdMonHo__2E1BDC42" FromRole="MonHoc" ToRole="DiemThi" />
+  </EntityType>
+  <Association Name="FK__DiemThi__IdHocVi__2D27B809">
+    <End Role="HocVien" Type="Self.HocVien" Multiplicity="1" />
+    <End Role="DiemThi" Type="Self.DiemThi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HocVien">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DiemThi">
+        <PropertyRef Name="IdHocVien" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DiemThi__IdMonHo__2E1BDC42">
+    <End Role="MonHoc" Type="Self.MonHoc" Multiplicity="1" />
+    <End Role="DiemThi" Type="Self.DiemThi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MonHoc">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DiemThi">
+        <PropertyRef Name="IdMonHoc" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HocVien__IdLopHo__267ABA7A">
+    <End Role="LopHoc" Type="Self.LopHoc" Multiplicity="1" />
+    <End Role="HocVien" Type="Self.HocVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LopHoc">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="HocVien">
+        <PropertyRef Name="IdLopHoc" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QldtDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DiemThis" EntityType="Self.DiemThi" />
+    <EntitySet Name="HocViens" EntityType="Self.HocVien" />
+    <EntitySet Name="LopHocs" EntityType="Self.LopHoc" />
+    <EntitySet Name="MonHocs" EntityType="Self.MonHoc" />
+    <AssociationSet Name="FK__DiemThi__IdHocVi__2D27B809" Association="Self.FK__DiemThi__IdHocVi__2D27B809">
+      <End Role="HocVien" EntitySet="HocViens" />
+      <End Role="DiemThi" EntitySet="DiemThis" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DiemThi__IdMonHo__2E1BDC42" Association="Self.FK__DiemThi__IdMonHo__2E1BDC42">
+      <End Role="MonHoc" EntitySet="MonHocs" />
+      <End Role="DiemThi" EntitySet="DiemThis" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HocVien__IdLopHo__267ABA7A" Association="Self.FK__HocVien__IdLopHo__267ABA7A">
+      <End Role="LopHoc" EntitySet="LopHocs" />
+      <End Role="HocVien" EntitySet="HocViens" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

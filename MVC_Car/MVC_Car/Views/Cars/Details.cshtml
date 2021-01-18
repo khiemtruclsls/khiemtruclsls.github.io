@@ -1,0 +1,50 @@
+﻿@model MVC_Car.Models.Car
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Car</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CarModer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CarModer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CarModelYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CarModelYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CarVin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CarVin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MOCK_DATA.MakerCar)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MOCK_DATA.MakerCar)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CarId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

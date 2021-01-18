@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\SleepTi_HGK\SleepTi_HGK\bin\Debug\SleepTi_HGK.exe.config
+C:\Users\Admin\source\repos\SleepTi_HGK\SleepTi_HGK\bin\Debug\SleepTi_HGK.exe
+C:\Users\Admin\source\repos\SleepTi_HGK\SleepTi_HGK\bin\Debug\SleepTi_HGK.pdb
+C:\Users\Admin\source\repos\SleepTi_HGK\SleepTi_HGK\obj\Debug\SleepTi_HGK.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\SleepTi_HGK\SleepTi_HGK\obj\Debug\SleepTi_HGK.Form1.resources
+C:\Users\Admin\source\repos\SleepTi_HGK\SleepTi_HGK\obj\Debug\SleepTi_HGK.Properties.Resources.resources
+C:\Users\Admin\source\repos\SleepTi_HGK\SleepTi_HGK\obj\Debug\SleepTi_HGK.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\SleepTi_HGK\SleepTi_HGK\obj\Debug\SleepTi_HGK.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\SleepTi_HGK\SleepTi_HGK\obj\Debug\SleepTi_HGK.exe
+C:\Users\Admin\source\repos\SleepTi_HGK\SleepTi_HGK\obj\Debug\SleepTi_HGK.pdb

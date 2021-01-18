@@ -1,0 +1,47 @@
+﻿@model IEnumerable<MVC_Pro_Owin_API.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+           ProName
+        </th>
+        <th>
+            ProPrice
+        </th>
+        <th>
+           ProCateID
+        </th>
+        <th></th>
+    </tr>
+<tbody>
+
+</tbody>
+@*@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProCateId)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ProductId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ProductId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ProductId })
+        </td>
+    </tr>
+}*@
+
+</table>

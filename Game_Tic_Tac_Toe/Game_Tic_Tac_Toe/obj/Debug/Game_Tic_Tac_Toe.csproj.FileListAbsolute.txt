@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\Game_Tic_Tac_Toe\Game_Tic_Tac_Toe\bin\Debug\Game_Tic_Tac_Toe.exe.config
+C:\Users\Admin\source\repos\Game_Tic_Tac_Toe\Game_Tic_Tac_Toe\bin\Debug\Game_Tic_Tac_Toe.exe
+C:\Users\Admin\source\repos\Game_Tic_Tac_Toe\Game_Tic_Tac_Toe\bin\Debug\Game_Tic_Tac_Toe.pdb
+C:\Users\Admin\source\repos\Game_Tic_Tac_Toe\Game_Tic_Tac_Toe\obj\Debug\Game_Tic_Tac_Toe.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Game_Tic_Tac_Toe\Game_Tic_Tac_Toe\obj\Debug\Game_Tic_Tac_Toe.Form1.resources
+C:\Users\Admin\source\repos\Game_Tic_Tac_Toe\Game_Tic_Tac_Toe\obj\Debug\Game_Tic_Tac_Toe.Properties.Resources.resources
+C:\Users\Admin\source\repos\Game_Tic_Tac_Toe\Game_Tic_Tac_Toe\obj\Debug\Game_Tic_Tac_Toe.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Game_Tic_Tac_Toe\Game_Tic_Tac_Toe\obj\Debug\Game_Tic_Tac_Toe.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Game_Tic_Tac_Toe\Game_Tic_Tac_Toe\obj\Debug\Game_Tic_Tac_Toe.exe
+C:\Users\Admin\source\repos\Game_Tic_Tac_Toe\Game_Tic_Tac_Toe\obj\Debug\Game_Tic_Tac_Toe.pdb

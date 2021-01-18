@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\Quan_Ly_SV_From_By_HGK\COmmoN_By_HGK\bin\Debug\COmmoN_By_HGK.dll
+C:\Users\Admin\source\repos\Quan_Ly_SV_From_By_HGK\COmmoN_By_HGK\bin\Debug\COmmoN_By_HGK.pdb
+C:\Users\Admin\source\repos\Quan_Ly_SV_From_By_HGK\COmmoN_By_HGK\bin\Debug\DataAccess_By_HGK.dll
+C:\Users\Admin\source\repos\Quan_Ly_SV_From_By_HGK\COmmoN_By_HGK\bin\Debug\DataAccess_By_HGK.pdb
+C:\Users\Admin\source\repos\Quan_Ly_SV_From_By_HGK\COmmoN_By_HGK\obj\Debug\COmmoN_By_HGK.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Quan_Ly_SV_From_By_HGK\COmmoN_By_HGK\obj\Debug\COmmoN_By_HGK.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Quan_Ly_SV_From_By_HGK\COmmoN_By_HGK\obj\Debug\COmmoN_By_HGK.csproj.CopyComplete
+C:\Users\Admin\source\repos\Quan_Ly_SV_From_By_HGK\COmmoN_By_HGK\obj\Debug\COmmoN_By_HGK.dll
+C:\Users\Admin\source\repos\Quan_Ly_SV_From_By_HGK\COmmoN_By_HGK\obj\Debug\COmmoN_By_HGK.pdb

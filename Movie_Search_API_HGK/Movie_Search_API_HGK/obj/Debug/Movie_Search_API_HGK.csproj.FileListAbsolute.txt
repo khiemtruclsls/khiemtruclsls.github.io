@@ -1,0 +1,13 @@
+C:\Users\Admin\source\repos\Movie_Search_API_HGK\Movie_Search_API_HGK\bin\Debug\Movie_Search_API_HGK.exe.config
+C:\Users\Admin\source\repos\Movie_Search_API_HGK\Movie_Search_API_HGK\bin\Debug\Movie_Search_API_HGK.exe
+C:\Users\Admin\source\repos\Movie_Search_API_HGK\Movie_Search_API_HGK\bin\Debug\Movie_Search_API_HGK.pdb
+C:\Users\Admin\source\repos\Movie_Search_API_HGK\Movie_Search_API_HGK\obj\Debug\Movie_Search_API_HGK.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Movie_Search_API_HGK\Movie_Search_API_HGK\obj\Debug\Movie_Search_API_HGK.Form1.resources
+C:\Users\Admin\source\repos\Movie_Search_API_HGK\Movie_Search_API_HGK\obj\Debug\Movie_Search_API_HGK.Properties.Resources.resources
+C:\Users\Admin\source\repos\Movie_Search_API_HGK\Movie_Search_API_HGK\obj\Debug\Movie_Search_API_HGK.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Movie_Search_API_HGK\Movie_Search_API_HGK\obj\Debug\Movie_Search_API_HGK.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Movie_Search_API_HGK\Movie_Search_API_HGK\obj\Debug\Movie_Search_API_HGK.exe
+C:\Users\Admin\source\repos\Movie_Search_API_HGK\Movie_Search_API_HGK\obj\Debug\Movie_Search_API_HGK.pdb
+C:\Users\Admin\source\repos\Movie_Search_API_HGK\Movie_Search_API_HGK\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\Movie_Search_API_HGK\Movie_Search_API_HGK\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\source\repos\Movie_Search_API_HGK\Movie_Search_API_HGK\obj\Debug\Movie_Search_API_HGK.csproj.CopyComplete

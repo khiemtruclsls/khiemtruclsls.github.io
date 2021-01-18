@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DB_CarModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Car">
+          <Key>
+            <PropertyRef Name="CarId" />
+          </Key>
+          <Property Name="CarId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CarModel" Type="varchar" MaxLength="50" />
+          <Property Name="CarModelYear" Type="varchar" MaxLength="50" />
+          <Property Name="CarVIN" Type="varchar" MaxLength="50" />
+          <Property Name="CarMakerID" Type="int" />
+        </EntityType>
+        <EntityType Name="Maker">
+          <Key>
+            <PropertyRef Name="MakerId" />
+          </Key>
+          <Property Name="MakerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="MakerName" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK__Car__CarMakerID__25869641">
+          <End Role="Maker" Type="Self.Maker" Multiplicity="0..1" />
+          <End Role="Car" Type="Self.Car" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Maker">
+              <PropertyRef Name="MakerId" />
+            </Principal>
+            <Dependent Role="Car">
+              <PropertyRef Name="CarMakerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DB_CarModelStoreContainer">
+          <EntitySet Name="Car" EntityType="Self.Car" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Maker" EntityType="Self.Maker" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Car__CarMakerID__25869641" Association="Self.FK__Car__CarMakerID__25869641">
+            <End Role="Maker" EntitySet="Maker" />
+            <End Role="Car" EntitySet="Car" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DB_CarModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Car">
+          <Key>
+            <PropertyRef Name="CarId" />
+          </Key>
+          <Property Name="CarId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CarModel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CarModelYear" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CarVIN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CarMakerID" Type="Int32" />
+          <NavigationProperty Name="Maker" Relationship="Self.FK__Car__CarMakerID__25869641" FromRole="Car" ToRole="Maker" />
+        </EntityType>
+        <EntityType Name="Maker">
+          <Key>
+            <PropertyRef Name="MakerId" />
+          </Key>
+          <Property Name="MakerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MakerName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Cars" Relationship="Self.FK__Car__CarMakerID__25869641" FromRole="Maker" ToRole="Car" />
+        </EntityType>
+        <Association Name="FK__Car__CarMakerID__25869641">
+          <End Role="Maker" Type="Self.Maker" Multiplicity="0..1" />
+          <End Role="Car" Type="Self.Car" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Maker">
+              <PropertyRef Name="MakerId" />
+            </Principal>
+            <Dependent Role="Car">
+              <PropertyRef Name="CarMakerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DB_CarEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Cars" EntityType="Self.Car" />
+          <EntitySet Name="Makers" EntityType="Self.Maker" />
+          <AssociationSet Name="FK__Car__CarMakerID__25869641" Association="Self.FK__Car__CarMakerID__25869641">
+            <End Role="Maker" EntitySet="Makers" />
+            <End Role="Car" EntitySet="Cars" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DB_CarModelStoreContainer" CdmEntityContainer="DB_CarEntities">
+          <EntitySetMapping Name="Cars">
+            <EntityTypeMapping TypeName="DB_CarModel.Car">
+              <MappingFragment StoreEntitySet="Car">
+                <ScalarProperty Name="CarId" ColumnName="CarId" />
+                <ScalarProperty Name="CarModel" ColumnName="CarModel" />
+                <ScalarProperty Name="CarModelYear" ColumnName="CarModelYear" />
+                <ScalarProperty Name="CarVIN" ColumnName="CarVIN" />
+                <ScalarProperty Name="CarMakerID" ColumnName="CarMakerID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Makers">
+            <EntityTypeMapping TypeName="DB_CarModel.Maker">
+              <MappingFragment StoreEntitySet="Maker">
+                <ScalarProperty Name="MakerId" ColumnName="MakerId" />
+                <ScalarProperty Name="MakerName" ColumnName="MakerName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

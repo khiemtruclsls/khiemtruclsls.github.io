@@ -1,0 +1,13 @@
+C:\Users\Admin\source\repos\APP_ChuyenDoiTIenTe_HGK\APP_ChuyenDoiTIenTe_HGK\bin\Debug\APP_ChuyenDoiTIenTe_HGK.exe.config
+C:\Users\Admin\source\repos\APP_ChuyenDoiTIenTe_HGK\APP_ChuyenDoiTIenTe_HGK\bin\Debug\APP_ChuyenDoiTIenTe_HGK.exe
+C:\Users\Admin\source\repos\APP_ChuyenDoiTIenTe_HGK\APP_ChuyenDoiTIenTe_HGK\bin\Debug\APP_ChuyenDoiTIenTe_HGK.pdb
+C:\Users\Admin\source\repos\APP_ChuyenDoiTIenTe_HGK\APP_ChuyenDoiTIenTe_HGK\obj\Debug\APP_ChuyenDoiTIenTe_HGK.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\APP_ChuyenDoiTIenTe_HGK\APP_ChuyenDoiTIenTe_HGK\obj\Debug\APP_ChuyenDoiTIenTe_HGK.Form1.resources
+C:\Users\Admin\source\repos\APP_ChuyenDoiTIenTe_HGK\APP_ChuyenDoiTIenTe_HGK\obj\Debug\APP_ChuyenDoiTIenTe_HGK.Properties.Resources.resources
+C:\Users\Admin\source\repos\APP_ChuyenDoiTIenTe_HGK\APP_ChuyenDoiTIenTe_HGK\obj\Debug\APP_ChuyenDoiTIenTe_HGK.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\APP_ChuyenDoiTIenTe_HGK\APP_ChuyenDoiTIenTe_HGK\obj\Debug\APP_ChuyenDoiTIenTe_HGK.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\APP_ChuyenDoiTIenTe_HGK\APP_ChuyenDoiTIenTe_HGK\obj\Debug\APP_ChuyenDoiTIenTe_HGK.exe
+C:\Users\Admin\source\repos\APP_ChuyenDoiTIenTe_HGK\APP_ChuyenDoiTIenTe_HGK\obj\Debug\APP_ChuyenDoiTIenTe_HGK.pdb
+C:\Users\Admin\source\repos\APP_ChuyenDoiTIenTe_HGK\APP_ChuyenDoiTIenTe_HGK\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\APP_ChuyenDoiTIenTe_HGK\APP_ChuyenDoiTIenTe_HGK\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\source\repos\APP_ChuyenDoiTIenTe_HGK\APP_ChuyenDoiTIenTe_HGK\obj\Debug\APP_ChuyenDoiTIenTe_HGK.csproj.CopyComplete

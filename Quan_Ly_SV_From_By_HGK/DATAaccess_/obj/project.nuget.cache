@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HMQKjlRHDIC5XwOPSylpo+pFNi4mrP3XaGVweB8YWc7D8MByoDB2jpcuyAMXJET5pdAsc3guWcupseTpn5BTlw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\Quan_Ly_SV_From_By_HGK\\DATAaccess_\\DATAaccess_.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

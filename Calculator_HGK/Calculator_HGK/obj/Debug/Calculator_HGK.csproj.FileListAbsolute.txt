@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\Calculator_HGK\Calculator_HGK\bin\Debug\Calculator_HGK.exe.config
+C:\Users\Admin\source\repos\Calculator_HGK\Calculator_HGK\bin\Debug\Calculator_HGK.exe
+C:\Users\Admin\source\repos\Calculator_HGK\Calculator_HGK\bin\Debug\Calculator_HGK.pdb
+C:\Users\Admin\source\repos\Calculator_HGK\Calculator_HGK\obj\Debug\Calculator_HGK.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Calculator_HGK\Calculator_HGK\obj\Debug\Calculator_HGK.Calculator_By_HGK.resources
+C:\Users\Admin\source\repos\Calculator_HGK\Calculator_HGK\obj\Debug\Calculator_HGK.Properties.Resources.resources
+C:\Users\Admin\source\repos\Calculator_HGK\Calculator_HGK\obj\Debug\Calculator_HGK.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Calculator_HGK\Calculator_HGK\obj\Debug\Calculator_HGK.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Calculator_HGK\Calculator_HGK\obj\Debug\Calculator_HGK.exe
+C:\Users\Admin\source\repos\Calculator_HGK\Calculator_HGK\obj\Debug\Calculator_HGK.pdb

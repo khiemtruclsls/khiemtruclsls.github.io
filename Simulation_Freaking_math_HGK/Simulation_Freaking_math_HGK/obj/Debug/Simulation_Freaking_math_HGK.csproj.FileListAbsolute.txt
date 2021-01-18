@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\Simulation_Freaking_math_HGK\Simulation_Freaking_math_HGK\bin\Debug\Simulation_Freaking_math_HGK.exe.config
+C:\Users\Admin\source\repos\Simulation_Freaking_math_HGK\Simulation_Freaking_math_HGK\bin\Debug\Simulation_Freaking_math_HGK.exe
+C:\Users\Admin\source\repos\Simulation_Freaking_math_HGK\Simulation_Freaking_math_HGK\bin\Debug\Simulation_Freaking_math_HGK.pdb
+C:\Users\Admin\source\repos\Simulation_Freaking_math_HGK\Simulation_Freaking_math_HGK\obj\Debug\Simulation_Freaking_math_HGK.Form1.resources
+C:\Users\Admin\source\repos\Simulation_Freaking_math_HGK\Simulation_Freaking_math_HGK\obj\Debug\Simulation_Freaking_math_HGK.Properties.Resources.resources
+C:\Users\Admin\source\repos\Simulation_Freaking_math_HGK\Simulation_Freaking_math_HGK\obj\Debug\Simulation_Freaking_math_HGK.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Simulation_Freaking_math_HGK\Simulation_Freaking_math_HGK\obj\Debug\Simulation_Freaking_math_HGK.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Simulation_Freaking_math_HGK\Simulation_Freaking_math_HGK\obj\Debug\Simulation_Freaking_math_HGK.exe
+C:\Users\Admin\source\repos\Simulation_Freaking_math_HGK\Simulation_Freaking_math_HGK\obj\Debug\Simulation_Freaking_math_HGK.pdb
+C:\Users\Admin\source\repos\Simulation_Freaking_math_HGK\Simulation_Freaking_math_HGK\obj\Debug\Simulation_Freaking_math_HGK.Form_Nguoi_Choi.resources
+C:\Users\Admin\source\repos\Simulation_Freaking_math_HGK\Simulation_Freaking_math_HGK\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\Simulation_Freaking_math_HGK\Simulation_Freaking_math_HGK\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\source\repos\Simulation_Freaking_math_HGK\Simulation_Freaking_math_HGK\obj\Debug\Simulation_Freaking_math_HGK.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Simulation_Freaking_math_HGK\Simulation_Freaking_math_HGK\obj\Debug\Simulation_Freaking_math_HGK.csproj.CopyComplete
+C:\Users\Admin\source\repos\Simulation_Freaking_math_HGK\Simulation_Freaking_math_HGK\obj\Debug\Simulation_Freaking_math_HGK.Form_DuLieu_KetQua.resources

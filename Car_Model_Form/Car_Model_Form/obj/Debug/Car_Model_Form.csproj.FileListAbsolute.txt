@@ -1,0 +1,12 @@
+C:\Users\Admin\source\repos\Car_Model_Form\Car_Model_Form\bin\Debug\cardb.mdf
+C:\Users\Admin\source\repos\Car_Model_Form\Car_Model_Form\bin\Debug\cardb_log.ldf
+C:\Users\Admin\source\repos\Car_Model_Form\Car_Model_Form\bin\Debug\Car_Model_Form.exe.config
+C:\Users\Admin\source\repos\Car_Model_Form\Car_Model_Form\bin\Debug\Car_Model_Form.exe
+C:\Users\Admin\source\repos\Car_Model_Form\Car_Model_Form\bin\Debug\Car_Model_Form.pdb
+C:\Users\Admin\source\repos\Car_Model_Form\Car_Model_Form\obj\Debug\Car_Model_Form.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Car_Model_Form\Car_Model_Form\obj\Debug\Car_Model_Form.Form1.resources
+C:\Users\Admin\source\repos\Car_Model_Form\Car_Model_Form\obj\Debug\Car_Model_Form.Properties.Resources.resources
+C:\Users\Admin\source\repos\Car_Model_Form\Car_Model_Form\obj\Debug\Car_Model_Form.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Car_Model_Form\Car_Model_Form\obj\Debug\Car_Model_Form.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Car_Model_Form\Car_Model_Form\obj\Debug\Car_Model_Form.exe
+C:\Users\Admin\source\repos\Car_Model_Form\Car_Model_Form\obj\Debug\Car_Model_Form.pdb

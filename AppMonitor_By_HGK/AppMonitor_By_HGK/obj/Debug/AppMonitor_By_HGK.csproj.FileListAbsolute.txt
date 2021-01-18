@@ -1,0 +1,13 @@
+C:\Users\Admin\source\repos\AppMonitor_By_HGK\AppMonitor_By_HGK\bin\Debug\AppMonitor_By_HGK.exe.config
+C:\Users\Admin\source\repos\AppMonitor_By_HGK\AppMonitor_By_HGK\bin\Debug\AppMonitor_By_HGK.exe
+C:\Users\Admin\source\repos\AppMonitor_By_HGK\AppMonitor_By_HGK\bin\Debug\AppMonitor_By_HGK.pdb
+C:\Users\Admin\source\repos\AppMonitor_By_HGK\AppMonitor_By_HGK\obj\Debug\AppMonitor_By_HGK.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\AppMonitor_By_HGK\AppMonitor_By_HGK\obj\Debug\AppMonitor_By_HGK.Form1.resources
+C:\Users\Admin\source\repos\AppMonitor_By_HGK\AppMonitor_By_HGK\obj\Debug\AppMonitor_By_HGK.Properties.Resources.resources
+C:\Users\Admin\source\repos\AppMonitor_By_HGK\AppMonitor_By_HGK\obj\Debug\AppMonitor_By_HGK.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\AppMonitor_By_HGK\AppMonitor_By_HGK\obj\Debug\AppMonitor_By_HGK.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\AppMonitor_By_HGK\AppMonitor_By_HGK\obj\Debug\AppMonitor_By_HGK.exe
+C:\Users\Admin\source\repos\AppMonitor_By_HGK\AppMonitor_By_HGK\obj\Debug\AppMonitor_By_HGK.pdb
+C:\Users\Admin\source\repos\AppMonitor_By_HGK\AppMonitor_By_HGK\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\AppMonitor_By_HGK\AppMonitor_By_HGK\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\source\repos\AppMonitor_By_HGK\AppMonitor_By_HGK\obj\Debug\AppMonitor_By_HGK.csproj.CopyComplete

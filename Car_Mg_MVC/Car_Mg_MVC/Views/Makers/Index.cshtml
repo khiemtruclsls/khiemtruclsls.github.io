@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Car_Mg_MVC.Models.Maker>
+
+@{
+    ViewBag.Title = "Index";
+    }
+
+<h2>Index</h2>
+
+<form>
+    @if(TempData["thongbao"] != null && !string.IsNullOrEmpty(TempData["thongbao"].ToString())){
+        <div class="alert alert-success"role="alert" id="tb">
+            @TempData["thongbao"]
+        </div>
+       <script type="text/javascript">
+           setTimeout(function () { $('tb').fadeOut('slow'); }, 3000);
+       </script>
+    }
+    Search Maker : <input type="text" id="IdSearch" name="IdSearch"/>
+             <input type="submit"/>
+</form>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MakerName)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MakerName)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.MakerId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.MakerId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.MakerId })
+            </td>
+        </tr>
+
+    }
+    <tr>
+        <td colspan="5" class="alert alert-success">
+            Số lượng tên nhà sản xuất : @ViewData["soluong"]
+        </td>
+    </tr>
+
+</table>

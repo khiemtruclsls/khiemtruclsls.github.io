@@ -1,0 +1,12 @@
+C:\Users\Admin\source\repos\Form_QLCV_BY_HGK\Form_QLCV_BY_HGK\bin\Debug\QLCVdb.mdf
+C:\Users\Admin\source\repos\Form_QLCV_BY_HGK\Form_QLCV_BY_HGK\bin\Debug\QLCVdb_log.ldf
+C:\Users\Admin\source\repos\Form_QLCV_BY_HGK\Form_QLCV_BY_HGK\bin\Debug\Form_QLCV_BY_HGK.exe.config
+C:\Users\Admin\source\repos\Form_QLCV_BY_HGK\Form_QLCV_BY_HGK\bin\Debug\Form_QLCV_BY_HGK.exe
+C:\Users\Admin\source\repos\Form_QLCV_BY_HGK\Form_QLCV_BY_HGK\bin\Debug\Form_QLCV_BY_HGK.pdb
+C:\Users\Admin\source\repos\Form_QLCV_BY_HGK\Form_QLCV_BY_HGK\obj\Debug\Form_QLCV_BY_HGK.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Form_QLCV_BY_HGK\Form_QLCV_BY_HGK\obj\Debug\Form_QLCV_BY_HGK.Form1.resources
+C:\Users\Admin\source\repos\Form_QLCV_BY_HGK\Form_QLCV_BY_HGK\obj\Debug\Form_QLCV_BY_HGK.Properties.Resources.resources
+C:\Users\Admin\source\repos\Form_QLCV_BY_HGK\Form_QLCV_BY_HGK\obj\Debug\Form_QLCV_BY_HGK.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Form_QLCV_BY_HGK\Form_QLCV_BY_HGK\obj\Debug\Form_QLCV_BY_HGK.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Form_QLCV_BY_HGK\Form_QLCV_BY_HGK\obj\Debug\Form_QLCV_BY_HGK.exe
+C:\Users\Admin\source\repos\Form_QLCV_BY_HGK\Form_QLCV_BY_HGK\obj\Debug\Form_QLCV_BY_HGK.pdb

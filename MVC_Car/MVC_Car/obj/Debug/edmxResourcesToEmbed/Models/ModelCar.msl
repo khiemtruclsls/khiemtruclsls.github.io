@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CarDBModelStoreContainer" CdmEntityContainer="CarDBEntities">
+    <EntitySetMapping Name="Cars">
+      <EntityTypeMapping TypeName="CarDBModel.Car">
+        <MappingFragment StoreEntitySet="Car">
+          <ScalarProperty Name="CarId" ColumnName="CarId" />
+          <ScalarProperty Name="CarModer" ColumnName="CarModer" />
+          <ScalarProperty Name="CarModelYear" ColumnName="CarModelYear" />
+          <ScalarProperty Name="CarVin" ColumnName="CarVin" />
+          <ScalarProperty Name="IdMakerCar" ColumnName="IdMakerCar" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MOCK_DATA">
+      <EntityTypeMapping TypeName="CarDBModel.MOCK_DATA">
+        <MappingFragment StoreEntitySet="MOCK_DATA">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MakerCar" ColumnName="MakerCar" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

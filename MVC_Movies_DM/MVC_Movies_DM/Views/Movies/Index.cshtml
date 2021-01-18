@@ -1,0 +1,71 @@
+﻿@model IEnumerable<MVC_Movies_DM.Models.Movie>
+@using PagedList;
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<form>
+    Search:  @Html.TextBox("TxtTimkiem")
+    <input type="submit" />
+</form>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            <a href="@Url.Action("Index",new { sapxep = "Title", chieusx = (Request["chieusx"]==null || Request["chieusx"]=="Xuoi"?"Nguoc":"Xuoi") })">
+                @Html.DisplayNameFor(model => model.Title)
+            </a>
+       
+        </th>
+        <th>
+         s
+            @Html.DisplayNameFor(model => model.ReleaseDate);
+
+        </th>
+        <th>
+            <a href="@Url.Action("Index",new { sapxep = "RunningTime", chieusx = (Request["chieusx"]==null || Request["chieusx"]=="Xuoi"?"Nguoc":"Xuoi") })">
+                @Html.DisplayNameFor(model => model.RunningTime)
+            </a>
+           
+        <th>
+            @Html.DisplayNameFor(model => model.BoxOffice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Genre.GenreName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReleaseDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RunningTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BoxOffice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Genre.GenreName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MovieId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MovieId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MovieId })
+        </td>
+    </tr>
+}
+
+</table>
+@Html.PagedListPager((IPagedList)Model , page => Url.Action("Index", new { page  , sapxep = Request["sapxep"] , chieusx = Request["chieusx"], TxtTimkiem = Request["TxtTimkiem"] }))

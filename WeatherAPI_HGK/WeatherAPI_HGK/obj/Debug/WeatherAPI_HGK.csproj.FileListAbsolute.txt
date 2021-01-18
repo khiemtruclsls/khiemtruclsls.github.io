@@ -1,0 +1,13 @@
+C:\Users\Admin\source\repos\WeatherAPI_HGK\WeatherAPI_HGK\bin\Debug\WeatherAPI_HGK.exe.config
+C:\Users\Admin\source\repos\WeatherAPI_HGK\WeatherAPI_HGK\bin\Debug\WeatherAPI_HGK.exe
+C:\Users\Admin\source\repos\WeatherAPI_HGK\WeatherAPI_HGK\bin\Debug\WeatherAPI_HGK.pdb
+C:\Users\Admin\source\repos\WeatherAPI_HGK\WeatherAPI_HGK\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\WeatherAPI_HGK\WeatherAPI_HGK\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\source\repos\WeatherAPI_HGK\WeatherAPI_HGK\obj\Debug\WeatherAPI_HGK.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\WeatherAPI_HGK\WeatherAPI_HGK\obj\Debug\WeatherAPI_HGK.Form1.resources
+C:\Users\Admin\source\repos\WeatherAPI_HGK\WeatherAPI_HGK\obj\Debug\WeatherAPI_HGK.Properties.Resources.resources
+C:\Users\Admin\source\repos\WeatherAPI_HGK\WeatherAPI_HGK\obj\Debug\WeatherAPI_HGK.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\WeatherAPI_HGK\WeatherAPI_HGK\obj\Debug\WeatherAPI_HGK.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\WeatherAPI_HGK\WeatherAPI_HGK\obj\Debug\WeatherAPI_HGK.csproj.CopyComplete
+C:\Users\Admin\source\repos\WeatherAPI_HGK\WeatherAPI_HGK\obj\Debug\WeatherAPI_HGK.exe
+C:\Users\Admin\source\repos\WeatherAPI_HGK\WeatherAPI_HGK\obj\Debug\WeatherAPI_HGK.pdb

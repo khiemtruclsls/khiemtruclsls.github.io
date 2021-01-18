@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Car_Mg_MVC.Models.Car>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<form>
+    @if (TempData["Mess"] != null && !string.IsNullOrEmpty(TempData["Mess"].ToString()))
+    {
+        <div class="alert alert-success" role="alert" id="TB">
+            @TempData["Mess"]
+        </div>
+        <script type="text/javascript">
+            setTimeout(function () { $('#TB').fadeOut('slow'); }, 3000);
+        </script>
+    }
+    Search Car Model : <input type="text" id="IdSearch" name="IdSearch" />
+    @Html.DropDownList("_carMakerID", null, htmlAttributes: new { @class = "form-control" })
+    <input type="submit" />
+</form>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CarModel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CarModelYear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CarVIN)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Maker.MakerName)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarModel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarModelYear)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarVIN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Maker.MakerName)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.CarId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.CarId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.CarId })
+            </td>
+
+        </tr>
+
+    }
+    <tr>
+        <td colspan="5" class="alert alert-success">
+            Số Lượng xe : @ViewData["SoLuongXe"]
+        </td>
+    </tr>
+
+</table>

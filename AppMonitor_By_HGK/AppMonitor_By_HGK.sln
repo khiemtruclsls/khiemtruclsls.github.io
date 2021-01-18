@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppMonitor_By_HGK", "AppMonitor_By_HGK\AppMonitor_By_HGK.csproj", "{D8372013-A3C5-494A-BB16-20672E3EAAAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8372013-A3C5-494A-BB16-20672E3EAAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8372013-A3C5-494A-BB16-20672E3EAAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8372013-A3C5-494A-BB16-20672E3EAAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8372013-A3C5-494A-BB16-20672E3EAAAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F7B310D-A3E5-4890-89C7-40B966167364}
+	EndGlobalSection
+EndGlobal

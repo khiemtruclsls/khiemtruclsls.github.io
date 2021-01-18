@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CarDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Car">
+    <Key>
+      <PropertyRef Name="CarId" />
+    </Key>
+    <Property Name="CarId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CarModer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CarModelYear" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CarVin" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IdMakerCar" Type="Int32" />
+    <NavigationProperty Name="MOCK_DATA" Relationship="Self.FK__Car__IdMakerCar__25869641" FromRole="Car" ToRole="MOCK_DATA" />
+  </EntityType>
+  <EntityType Name="MOCK_DATA">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MakerCar" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Cars" Relationship="Self.FK__Car__IdMakerCar__25869641" FromRole="MOCK_DATA" ToRole="Car" />
+  </EntityType>
+  <Association Name="FK__Car__IdMakerCar__25869641">
+    <End Role="MOCK_DATA" Type="Self.MOCK_DATA" Multiplicity="0..1" />
+    <End Role="Car" Type="Self.Car" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MOCK_DATA">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Car">
+        <PropertyRef Name="IdMakerCar" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CarDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Cars" EntityType="Self.Car" />
+    <EntitySet Name="MOCK_DATA" EntityType="Self.MOCK_DATA" />
+    <AssociationSet Name="FK__Car__IdMakerCar__25869641" Association="Self.FK__Car__IdMakerCar__25869641">
+      <End Role="MOCK_DATA" EntitySet="MOCK_DATA" />
+      <End Role="Car" EntitySet="Cars" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

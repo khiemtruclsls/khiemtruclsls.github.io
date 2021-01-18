@@ -1,0 +1,61 @@
+﻿@model IEnumerable<MVC_Car.Models.Car>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@{
+    if(TempData["Cra"] != null  && !string.IsNullOrEmpty(TempData["Cra"].ToString()))
+    {
+            
+    }
+}
+<form>
+    Sreach : <input type="text "  name="txtSr" id="txtSr"></input>
+    <input type="submit" ></input>
+</form>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CarModer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CarModelYear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CarVin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MOCK_DATA.MakerCar)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CarModer)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CarModelYear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CarVin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MOCK_DATA.MakerCar)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CarId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CarId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CarId })
+        </td>
+    </tr>
+}
+
+</table>
